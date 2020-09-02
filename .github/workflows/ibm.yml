@@ -33,6 +33,6 @@ jobs:
         RESOURSE_ID: ${{ secrets.RESOURSE_ID }}
       run: |
         ./IBM_Cloud_CLI/ibmcloud target -g "$RESOURSE_ID"
-        ./IBM_Cloud_CLI/ibmcloud target --cf
-        1
+        ./IBM_Cloud_CLI/ibmcloud target --cf -r us-south
+        
 
